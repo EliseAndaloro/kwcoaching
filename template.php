@@ -8,8 +8,8 @@ ini_set("display_errors", 1);
 		<meta charset="utf-8">
 		<meta name="description" content="<?= $desc; ?>">
 		<title><?= $title; ?></title>
-		<link rel="stylesheet" href="http://localhost:8888/kwcoaching/bootstrap/5.0.1/css/bootstrap.min.css">
-		<link rel="stylesheet" href="http://localhost:8888/kwcoaching/css/styles.css">
+		<link rel="stylesheet" href="./bootstrap/5.0.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/styles.css">
 	</head>
 	<body>
 		<div class="content">
@@ -17,7 +17,7 @@ ini_set("display_errors", 1);
 			 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				    <div class="container-fluid">
 						<a class="navbar-brand" id="logo" href="/">
-					    	<a class="navbar-brand"><img src="http://localhost:8888/kwcoaching/images/kw-coaching-logo.png" alt="" width="150"></a>
+					    	<a class="navbar-brand"><img src="./images/kw-coaching-logo.png" alt="" width="150"></a>
 					    </a>
 				      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				        	<span class="navbar-toggler-icon"></span>
@@ -47,8 +47,8 @@ ini_set("display_errors", 1);
 				<?= $content; ?>
 			</div>
 		</div>
-		<script src="http://localhost:8888/kwcoaching/js/jquery-3.6.0.min.js"></script>
+		<script src="./js/jquery-3.6.0.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<script src="http://localhost:8888/kwcoaching/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+		<script src="./bootstrap/5.0.1/js/bootstrap.min.js"></script>
 	</body>
 </html>

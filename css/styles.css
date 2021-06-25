@@ -82,7 +82,7 @@ p {
 
 /* ACCUEIL */
 .header {
-	background-image:url('http://localhost:8888/kwcoaching/images/kw-coaching-header.jpg');
+	background-image:url('../images/kw-coaching-header.jpg');
 	height: 780px;
 	position: relative;
 	background-size: cover;
