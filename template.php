@@ -50,5 +50,7 @@ ini_set("display_errors", 1);
 		<script src="./js/jquery-3.6.0.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="./bootstrap/5.0.1/js/bootstrap.min.js"></script>
+		<script src="./OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+		<script src="./js/owl_carousel.js"></script>
 	</body>
 </html>

@@ -1,0 +1,3 @@
+kwcoaching_co_configuration.php
+kwcoaching_co_connect.php
+kwcoaching_co_deconnect.php

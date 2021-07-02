@@ -3,6 +3,9 @@ $desc = 'Test, je trouverai plus tard';
 $title = 'KW Caoching';
 ob_start();
 ?>
+<!-- Appel librairie Owl Carousel pour slide avis client -->
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
 
 <div class="header">
 	<div class="container">
@@ -25,27 +28,31 @@ ob_start();
 		<div class="text">
 			<h2>Les clients disent</h2>
 			<div class="ligne"></div>
-			<div class="row text-center">
-				<div class="col">
-					<div>
-						<img src="./images/kw-coaching-header.jpg" alt="" width="200" height="400">
-						<p>lorem ipsum</p>
+			<div class="owl-carousel owl-theme owl-loaded row align-items-center">
+			  <div class="owl-stage-outer bloc-avis">
+			    <div class="owl-stage">
+			      <div class="owl-item">
+				  	<div>
+						<img src="./images/kw-coaching-testimony-bastien.png" alt="" width="300" height="400">
+						<p><strong>Bastien</strong> Objectif perte de poids : -10kg , -12cm de tour de taille</p>
 					</div>
-				</div>
-				<div class="col">
-					<div>
-						<img src="./images/kw-coaching-header.jpg" alt="" width="200" height="400">
-						<p>lorem ipsum</p>
+			      </div>
+				  <div class="owl-item">
+				  	<div>
+						<img src="./images/kw-coaching-testimony-michel.png" alt="" width="300" height="400">
+						<p><strong>Michel</strong> Objectif perte de poids : -5.5kg , -13 cm de tour de taille</p>
 					</div>
-				</div>
-				<div class="col">
-					<div>
-						<img src="./images/kw-coaching-header.jpg" alt="" width="200" height="400">
-						<p>lorem ipsum</p>
+			      </div>
+				  <div class="owl-item">
+				  	<div>
+						<img src="./images/kw-coaching-testimony-rem.png" alt="" width="300" height="400">
+						<p><strong>Rem</strong> Objectif prise de masse musculaire : +10kg </p>
 					</div>
-				</div>
+			      </div>
+			    </div>
+			  </div>
 			</div>
-			<p>Atteignez vos objectifs plus rapidement<br>grâce à un suivi totalement personnalisé</p>
+			<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
 		</div>
 	</div>
 </div>
