@@ -2,6 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins&display=swap');
 
 /* * */
+body{
+	background-color: black;
+}
+
 .container-fluid {
 	padding: 0;
 }
@@ -29,11 +33,14 @@ p {
 .ligne {
 	width: 8%;
 	display: block;
-	margin: 0 auto;
-	margin-bottom: 1%;
-	margin-top: 1%;
+	margin: 1%;
 	background: #A51111;
 	height: 7px;
+}
+
+.ligne.text-center{
+	display: block;
+	margin: 0 auto;
 }
 
 /* BOUTON */
@@ -97,6 +104,5 @@ p {
 
 /** COACHING **/
 .coaching-pers{
-	background: black;
     padding: 8% 0 8%;
 }
