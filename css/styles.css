@@ -106,3 +106,34 @@ p {
 .coaching-pers{
     padding: 8% 0 8%;
 }
+
+/* ACCES ADMIN*/
+.formulaire-co > img {
+	display: block;
+    margin: 0 auto;
+	width: 35%;
+}
+
+.formulaire-co > form {
+	background: #ffffff33;
+    padding: 3%;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.formulaire-co > form > div > label {
+	color: #fff;
+    font-size: 18px;
+}
+
+.homepage {
+	position: absolute;
+    bottom: 3%;
+    left: 3%;
+}
+
+.homepage > a {
+	color: #fff;
+	text-decoration: none;
+}

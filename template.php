@@ -36,6 +36,9 @@ ini_set("display_errors", 1);
 				          		<li class="nav-item">
 				            		<a class="nav-link">Menu</a>
 				          		</li>
+								<li class="nav-item">
+				            		<a class="nav-link" href="./acces_admin.php">Admin</a>
+				          		</li>
 				        	</ul>
 				        	<a class="btn btn-outline-primary my-2 my-sm-0">Contact</a>
 				      	</div>
