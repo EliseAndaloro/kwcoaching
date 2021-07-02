@@ -1,8 +1,8 @@
 <?php
 
-include_once $_SERVER["DOCUMENT_ROOT"] . "/inc/bep_co_configuration.php";
+include_once ("./inc/db/kwcoaching_co_configuration.php");
 
-$co_bep = mysqli_connect($host_bep,$user_bep,$password_bep,$database_bep);
+$co_kw = mysqli_connect($host_kw,$user_kw,$password_kw,$database_kw);
 
 /* Vérification de la connexion */
 if (mysqli_connect_errno()) {
@@ -11,17 +11,17 @@ if (mysqli_connect_errno()) {
 }
 
 /* Modification du jeu de résultats en utf8 */
-if (!mysqli_set_charset($co_bep, "utf8")) {
-	printf("Erreur lors du chargement du jeu de caractères utf8 : %s\n", mysqli_error($co_bep));
+if (!mysqli_set_charset($co_kw, "utf8")) {
+	printf("Erreur lors du chargement du jeu de caractères utf8 : %s\n", mysqli_error($co_kw));
 	exit();
 }
 
-function my_query(&$co_bep, $query)
+function my_query(&$co_kw, $query)
 {
-	$res = mysqli_query($co_bep, $query);
+	$res = mysqli_query($co_kw, $query);
 	if(!$res)
 	{
-		$message  = 'Requête invalide : ' . mysqli_error($co_bep) . "\n";
+		$message  = 'Requête invalide : ' . mysqli_error($co_kw) . "\n";
 		$message .= 'Requête complète : ' . $query;
 		// EnvoyerMail("Erreur sur le site", $message);
 		// AfficheErreur('Une erreur s\'est produite sur le site. Nous avons été prévenu de cette erreur.');

@@ -1,8 +1,8 @@
 <?php
-	$host_bep 		= 'localhost';
-	$user_bep 		= 'bep';
-	$database_bep	= 'bep';
-	$password_bep 	= 'aPz2p7_2';
+	$host_kw 		= 'localhost';
+	$user_kw 		= 'root';
+	$database_kw	= 'kwcoaching';
+	$password_kw 	= 'root';
 
 	date_default_timezone_set('Europe/Paris');
 ?>

@@ -1,4 +1,4 @@
 <?php
-	if(!mysqli_close($co_af))
-		AfficheMessage("Impossible de fermer la connexion $co_af");
+	if(!mysqli_close($co_kw))
+		AfficheMessage("Impossible de fermer la connexion $co_kw");
 ?>

@@ -1,3 +1,9 @@
+<?php
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+include_once ("./inc/db/kwcoaching_co_connect.php");
+include_once ("./inc/kw_inc_fonction_acces_admin.php");
+?>
 <!DOCTYPE html>
 <html lang="fr" dir="ltr">
 	<head>
