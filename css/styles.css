@@ -107,6 +107,11 @@ p {
     padding: 8% 0 8%;
 }
 
+/** AVIS CLIENTS **/
+.testimony_name{
+	text-decoration: underline #A51111;
+}
+
 /* ACCES ADMIN*/
 .formulaire-co > img {
 	display: block;
