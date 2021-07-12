@@ -1,0 +1,198 @@
+/* POLICE */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins&display=swap');
+
+/* * */
+body {
+	padding: 1% 3% 3% 295px;
+    background: #e8e8e8;
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.head {
+	margin-top: 2%;
+}
+
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+}
+
+h2 {
+	font-size: 1.25rem;
+}
+
+h2 > i {
+    margin-right: 2%;
+}
+
+.ligne {
+	width: 15%;
+    height: 5px;
+    background: #A51111;
+}
+
+.ligne2{
+    width: 8%;
+    height: 2px;
+    background: #b1b1b17d;
+}
+
+
+/* BOUTON */
+.btn-outline-primary {
+	color: #000000;
+    border-color: #000000;
+    border-radius: 0;
+    font-family: 'Poppins', sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-outline-primary:hover {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.btn-secondary {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    border-radius: 0;
+}
+
+/* MENU */
+.menu-left {
+	width: 240px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    overflow-x: hidden;
+	height: 100%;
+}
+
+.content {
+	margin: 0 5% 0 5%;
+}
+
+.logo {
+    border-bottom: 1px solid #3f3f3f;
+    padding: 10% 0 10%;
+}
+
+.sidenav {
+    padding: 5% 5% 5%;
+    margin: 5% 5% 0;
+}
+
+.sidenav > a {
+    font-size: 16px;
+    color: #b1b1b1;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+	text-decoration: none;
+}
+
+.sidenav:hover, .sidenav.active {
+    background: #292929;
+    border-radius: 5px;
+}
+
+hr.menu {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0,0,0,.1);
+	background: #ffffff;
+}
+
+/* TABLEAU */
+
+.tableau {
+	background: #fff;
+    border-radius: 5px;
+    position: relative;
+    height: 500px;
+    max-width: 100%;
+    white-space: nowrap;
+    overflow: auto;
+    margin: 20px 0 20px;
+}
+
+thead th {
+    width: 0%;
+    font-size: 15px;
+}
+
+.table thead th {
+    border-bottom: none;
+    border-top: none;
+    border-bottom: 2px solid #a51010;
+	padding: .55rem;
+	vertical-align: bottom;
+}
+
+.table tbody td {
+    color: #828282;
+    font-size: 13px;
+}
+
+.select:hover {
+    background: #b1b1b129;
+    cursor: pointer;
+}
+
+
+/* FORMULAIRE */
+.bloc {
+    background: #fff;
+    margin: 2% 0 2% 0;
+    border-bottom: 4px solid #a51010;
+    border-radius: 5px;
+    box-shadow: 0px 0px 22px -8px #80808047;
+    position: relative;
+	padding: 2%;
+}
+
+.form-control {
+    border: none;
+    background-color: #5959590d;
+    color: #a2a2a2;
+    font-size: 14px;
+}
+
+form {
+	margin-top: 2%;
+}
+
+label {
+	font-size: 15px;
+    color: #000000;
+    font-weight: 500;
+    letter-spacing: 0.4px;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #f7f7f7;
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-bottom: 2px solid #a51010;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-group {
+    margin-bottom: 1.5rem;
+}

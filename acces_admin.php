@@ -23,13 +23,13 @@ include_once ("./inc/kw_inc_fonction_acces_admin.php");
 						<h2>Se connecter</h2>
 						<div class="ligne" style="margin-bottom:3%"></div>
 						<div class="form-group row" style="margin-bottom:3%">
-    						<label for="staticEmail" class="col-sm-3 col-form-label">Utilisateur</label>
+    						<label for="username" class="col-sm-3 col-form-label">Utilisateur</label>
 							    <div class="col-sm-9">
 							    	<input type="text" class="form-control" id="username" name="username">
 							    </div>
   						</div>
   						<div class="form-group row" style="margin-bottom:3%">
-    						<label for="inputPassword" class="col-sm-3 col-form-label">Mot de passe d</label>
+    						<label for="password" class="col-sm-3 col-form-label">Mot de passe d</label>
     							<div class="col-sm-9">
       								<input type="password" class="form-control" id="password" name="password">
     							</div>
