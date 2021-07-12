@@ -40,7 +40,7 @@ ini_set("display_errors", 1);
 				            		<a class="nav-link" href="./acces_admin.php">Admin</a>
 				          		</li>
 				        	</ul>
-				        	<a class="btn btn-outline-primary my-2 my-sm-0">Contact</a>
+				        	<a class="btn btn-outline-primary my-2 my-sm-0" href="./formulaire_contact.php">Contact</a>
 				      	</div>
 					</div>
 			  </nav>
