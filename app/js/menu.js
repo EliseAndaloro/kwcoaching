@@ -1,4 +1,6 @@
 $(document).ready(function() {
+	$('input:checkbox[value="1"]').attr('checked', true);
+	
 	var loc = window.location.href;
 
 	if (loc === "http://localhost:8888/kwcoaching/app/index.php") {

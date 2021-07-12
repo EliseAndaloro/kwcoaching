@@ -44,6 +44,67 @@ h2 > i {
     background: #b1b1b17d;
 }
 
+.errorMessage {
+	background: #000000fc;
+	padding: 1.5%;
+	margin-top: 2%;
+	color: white;
+	border-radius: 5px;
+}
+
+.successMessage {
+	background: #7bbba1;
+    padding: 1.5%;
+    margin-top: 2%;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.navbar-menu {
+    display: inline-flex;
+}
+
+.nav-link.active {
+    color: #a51010!important;
+    letter-spacing: 1px;
+    border-bottom: 3px solid #a51010;
+    padding-bottom: 5%;
+    font-weight: 500;
+}
+
+/* SWITCH INPUT */
+input[type="checkbox"].switch{
+  	appearance: none;
+  	width: 3.0em;
+	height: 1.0em;
+ 	background: #ddd;
+ 	border-radius: 3em;
+ 	position: relative;
+ 	cursor: pointer;
+ 	outline: none;
+ 	transition: all .2s ease-in-out;
+}
+
+input[type="checkbox"].switch:checked{
+ 	background: #a51010;
+}
+
+input[type="checkbox"].switch:after{
+	position: absolute;
+	content: "";
+	width: 1.0em;
+	height: 1.0em;
+	border-radius: 50%;
+	background: #fff;
+	box-shadow: 0 0 .25em rgba(0,0,0,.3);
+	transform: scale(.7);
+	left: 0;
+	transition: all .2s ease-in-out;
+}
+
+input[type="checkbox"].switch:checked:after{
+	left: calc(100% - 1.0em);
+}
 
 /* BOUTON */
 .btn-outline-primary {
@@ -159,6 +220,9 @@ thead th {
     border-radius: 5px;
     box-shadow: 0px 0px 22px -8px #80808047;
     position: relative;
+}
+
+.formulaire {
 	padding: 2%;
 }
 

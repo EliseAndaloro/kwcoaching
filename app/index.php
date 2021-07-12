@@ -1,4 +1,11 @@
 <?php
+error_reporting(E_ALL);
+ini_set("display_errors", 1);
+include_once ("./inc/db/kwcoaching_co_connect.php");
+include_once ("./inc/kw_inc_fonction_programmes.php");
+$res_programme = getProgrammes($co_kw);
+
+
 $desc = 'Application KW Caoching';
 $title = 'Application KW Caoching';
 ob_start();
@@ -20,19 +27,32 @@ ob_start();
 				<th>Nom</th>
 				<th>Description</th>
 				<th>Image</th>
+				<th>Actif</th>
 			</tr>
 		</thead>
-		<!-- <tbody>
-			<tr class="select">
-				<td>1</td>
-				<td>Nom du programme</td>
-				<td>Description du programme</td>
-				<td>image.png</td>
+		<tbody>
+<?php
+while ($programmes = mysqli_fetch_array($res_programme))
+{
+?>
+			<tr class="select" id="select_programmes">
+				<input type="hidden" name="id_programmes" value="<?= $programmes['id']; ?>">
+				<td><?= $programmes['id']; ?></td>
+				<td><?= $programmes['name']; ?></td>
+				<td><?= $programmes['description']; ?></td>
+				<td><?= $programmes['photo']; ?></td>
+				<td><input type="checkbox" name="programme_actif" value="<?= $programmes['active']; ?>" class="switch value"></td>
 			</tr>
-		</tbody> -->
+<?php
+}
+?>
+
+		</tbody>
 	</table>
 </div>
+
 <?php
 $content = ob_get_clean();
 require('template.php');
 ?>
+<script src="./js/kw_fonction_programmes.js" charset="utf-8"></script>
