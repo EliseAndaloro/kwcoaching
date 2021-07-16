@@ -128,6 +128,13 @@ input[type="checkbox"].switch:checked:after{
     border-radius: 0;
 }
 
+.btn-primary {
+    color: #fff;
+    background-color: #a51010;
+    border-color: #a51010;
+    border-radius: 0;
+}
+
 /* MENU */
 .menu-left {
 	width: 240px;

@@ -32,4 +32,25 @@ if (!empty($_POST["ajouter_programme"]))
 	}
 
 }
+
+//Afficher programme selon l'id
+function getProgrammesId(&$co_kw, $id)
+{
+	$query = "  SELECT *
+	 			FROM programmes
+				WHERE id = '$id' ";
+	$res = my_query($co_kw, $query);
+	$programme = mysqli_fetch_array($res);
+	return $programme;
+}
+
+// Supprimer programme
+if (!empty($_POST["supp_programme"])) {
+	$id = $_GET["id"];
+	$query = "  DELETE FROM programmes
+				WHERE id = '$id' ";
+	$res = my_query($co_kw, $query);
+}
+
+
 ?>

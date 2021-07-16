@@ -8,7 +8,7 @@ ini_set("display_errors", 1);
 		<meta charset="utf-8">
 		<meta name="description" content="<?= $desc; ?>">
 		<title><?= $title; ?></title>
-		<link rel="stylesheet" href="http://localhost:8888/kwcoaching/bootstrap/5.0.1/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./bootstrap/5.0.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/fontawesome.css" integrity="sha384-eHoocPgXsiuZh+Yy6+7DsKAerLXyJmu2Hadh4QYyt+8v86geixVYwFqUvMU8X90l" crossorigin="anonymous"/>
 		<link rel="stylesheet" href="./css/styles.css">
@@ -37,9 +37,9 @@ ini_set("display_errors", 1);
 
 		<?= $content; ?>
 
-		<script src="http://localhost:8888/kwcoaching/js/jquery-3.6.0.min.js"></script>
+		<script src="./js/jquery-3.6.0.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
-		<script src="http://localhost:8888/kwcoaching/bootstrap/5.0.1/js/bootstrap.min.js"></script>
+		<script src="./bootstrap/5.0.1/js/bootstrap.min.js"></script>
 		<script src="../app/js/menu.js" charset="utf-8"></script>
 	</body>
 </html>
