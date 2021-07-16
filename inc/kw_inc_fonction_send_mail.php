@@ -5,9 +5,9 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 // path du dossier PHPMailer % fichier d'envoi du mail
-require './PHPMailer/src/Exception.php';
-require './PHPMailer/src/PHPMailer.php';
-require './PHPMailer/src/SMTP.php';
+require './template_mail/PHPMailer/src/Exception.php';
+require './template_mail/PHPMailer/src/PHPMailer.php';
+require './template_mail/PHPMailer/src/SMTP.php';
 
 function sendmail($objet, $contenu, $destinataire) {  
 	// on crée une nouvelle instance de la classe

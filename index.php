@@ -36,32 +36,39 @@ ob_start();
 			<div class="owl-carousel owl-theme owl-loaded row align-items-center">
 			  <div class="owl-stage-outer">
 			    <div class="owl-stage">
-				  <?php  foreach ($rows as $row){ ?>
+<?php  			foreach ($rows as $row){ 
+					if(isset($row['photo']) && $row['photo'] !== ""){ 
+?>
 			      <div class="owl-item">
 				  	<div>
-						<?php  if($row['photo']){ ?>
-							<img src="./images/<?php echo($row['photo']); ?>" alt="" width="300" height="400">
-						 <?php } ?>
-						<p><strong class="testimony_name"><?php echo($row['name']); ?></strong><br><?php echo($row['testimony']); ?></p>
+						<img src="./images/<?php echo($row['photo']); ?>" alt="" width="300" height="400">
+						<p><strong class="testimony_name"><?php echo($row['name']); ?></strong></p>
 					</div>
 			      </div>
-				  <?php } ?>
-				  <!--<div class="owl-item">
-				  	<div>
-						<img src="./images/kw-coaching-testimony-michel.png" alt="" width="300" height="400">
-						<p><strong>Michel</strong> Objectif perte de poids : -5.5kg , -13 cm de tour de taille</p>
-					</div>
-			      </div>
-				  <div class="owl-item">
-				  	<div>
-						<img src="./images/kw-coaching-testimony-rem.png" alt="" width="300" height="400">
-						<p><strong>Rem</strong> Objectif prise de masse musculaire : +10kg </p>
-					</div>
-			      </div>-->
+<?php 				} 
+				} 
+?>
 			    </div>
 			  </div>
 			</div>
-			<p>Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
+
+			<div class="owl-carousel owl-theme owl-loaded row align-items-center">
+			  <div class="owl-stage-outer">
+			    <div class="owl-stage">
+<?php  			foreach ($rows as $row){ 
+					if(isset($row['photo']) && $row['photo'] == ""){ 
+?>
+			      <div class="owl-item">
+				  	<div>
+						<p><strong class="testimony_name"><?php echo($row['name']); ?></strong><br><?php echo($row['testimony']);?></p>
+					</div>
+			      </div>
+<?php 				} 
+				} 
+?>
+			    </div>
+			  </div>
+			</div>
 		</div>
 	</div>
 </div>
