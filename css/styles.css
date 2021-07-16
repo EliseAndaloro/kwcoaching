@@ -109,7 +109,37 @@ p {
 
 /** AVIS CLIENTS **/
 .testimony_name{
-	text-decoration: underline #A51111;
+	font-family: 'Oswald', sans-serif;
+	color: black;
+	text-align: center;
+}
+
+.testimony_text{
+	color: black;
+	text-align: justify;
+	font-size: 14px;
+	height : 90px;
+}
+
+.testimony{
+	background-color: #fff !important;
+	border-right:#A51111 solid 10px;
+	border-bottom: #A51111 solid 10px;
+	padding : 1%;
+	width: 367px !important;
+	height : 250px;
+	display: block;
+	margin : 10px;
+}
+
+.quotes{
+	display: inherit !important;
+	margin : 0 4% 0 0 !important;
+	width : auto !important;
+}
+
+.block_name{
+	height : 50px;
 }
 
 /* ACCES ADMIN*/
