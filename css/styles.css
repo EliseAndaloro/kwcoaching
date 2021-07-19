@@ -89,7 +89,7 @@ p {
 
 /* ACCUEIL */
 .header {
-	background-image:url('../images/kw-coaching-header.jpg');
+	background-image:url('../images/kw-coaching-kevin-header-min.png');
 	height: 780px;
 	position: relative;
 	background-size: cover;
@@ -100,6 +100,7 @@ p {
 
 .header > div > h1 {
 	margin-bottom: 3%;
+	/*color : #A51111;*/
 }
 
 /** COACHING **/
