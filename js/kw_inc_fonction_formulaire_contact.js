@@ -34,5 +34,7 @@ function helloWorld(){
         document.getElementById('form_content').innerHTML = particulier_form;
     }else if (value == "entreprise"){
         document.getElementById('form_content').innerHTML = entreprise_form;
+    }else{
+        document.getElementById('form_content').innerHTML = "";
     }
 };
