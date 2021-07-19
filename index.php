@@ -42,7 +42,7 @@ ob_start();
 			      <div class="owl-item">
 				  	<div>
 						<img src="./images/<?php echo($row['photo']); ?>" alt="" width="367" height="300">
-						<p><strong ><?php echo($row['name']); ?></strong></p>
+						<p style="text-align:center;"><strong ><?php echo($row['name']); ?></strong></p>
 					</div>
 			      </div>
 <?php 				} 
