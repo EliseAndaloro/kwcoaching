@@ -25,22 +25,22 @@ ini_set("display_errors", 1);
 				      	<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				        	<ul class="nav navbar-nav mx-auto order-0">
 								<li class="nav-item">
-				              		<a class="nav-link">Menu</a>
+				              		<a class="nav-link">Présentation du coach</a>
 				            	</li>
 				          		<li class="nav-item">
-				            		<a class="nav-link">Menu</a>
+				            		<a class="nav-link">Coaching personnalisé</a>
 				          		</li>
 								<li class="nav-item">
-				            		<a class="nav-link">Menu</a>
+				            		<a class="nav-link">Sport en entreprise</a>
 				          		</li>
 				          		<li class="nav-item">
-				            		<a class="nav-link">Menu</a>
+				            		<a class="nav-link">Programmes</a>
 				          		</li>
 								<li class="nav-item">
 				            		<a class="nav-link" href="./acces_admin.php">Admin</a>
 				          		</li>
 				        	</ul>
-				        	<a class="btn btn-outline-primary my-2 my-sm-0" href="./formulaire_contact.php">Contact</a>
+				        	<a class="btn btn-outline-primary my-2 my-sm-0" href="./formulaire_contact.php">Devis gratuit</a>
 				      	</div>
 					</div>
 			  </nav>
