@@ -31,7 +31,7 @@ ob_start();
 <div class="avis-clients">
 	<div class="container">
 		<div class="text">
-			<h2>Témoignages / Résultats</h2>
+			<h2>Témoignages  / Résultats</h2>
 			<div class="ligne"></div>
 			<div class="owl-carousel owl-theme owl-loaded row align-items-center">
 			  <div class="owl-stage-outer">
