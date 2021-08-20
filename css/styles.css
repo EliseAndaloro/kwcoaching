@@ -193,3 +193,31 @@ p {
 	color: #fff;
     font-size: 18px;
 }
+
+/* SPORT EN ENTREPRISE */
+.header_sport_entreprise {
+	background-image: url(../images/sport_entreprise.jpg);
+    height: 660px;
+    position: relative;
+    background-size: cover;
+    margin-top: -20%;
+    z-index: -1;
+    padding: 29% 0 0;
+}
+
+.sport_entreprise {
+    padding: 3%;
+    display: block;
+    margin: 0 auto;
+	color: #fff;
+}
+
+.white_block{
+	background-color: #fff;
+	color: black;
+	padding: 3% 0 3%;
+}
+
+.white_block > div > h2{
+	color: black;
+}
