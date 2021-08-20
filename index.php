@@ -41,13 +41,8 @@ ob_start();
 ?>
 			      <div class="owl-item">
 				  	<div>
-<<<<<<< HEAD
 						<img src="./images/<?php echo($row['photo']); ?>" alt="" width="367" height="300">
 						<p style="text-align:center;"><strong ><?php echo($row['name']); ?></strong></p>
-=======
-						<img src="./images/<?php echo($row['photo']); ?>" alt="" width="300" height="400">
-						<p><strong class="testimony_name"><?php echo($row['name']); ?></strong></p>
->>>>>>> Contacts
 					</div>
 			      </div>
 <?php 				} 
@@ -63,17 +58,11 @@ ob_start();
 <?php  			foreach ($rows as $row){ 
 					if(isset($row['photo']) && $row['photo'] == ""){ 
 ?>
-<<<<<<< HEAD
 			      <div class="owl-item testimony">
 				  	<div>
 						<p class="testimony_text"><span><img class="quotes" src="./images/straight-quotes.svg" width="20" height="20"/></span><?php echo($row['testimony']);?></p>
 						<div class="block_name"></div>
 						<p class="testimony_name"><?php echo($row['name']); ?></p>
-=======
-			      <div class="owl-item">
-				  	<div>
-						<p><strong class="testimony_name"><?php echo($row['name']); ?></strong><br><?php echo($row['testimony']);?></p>
->>>>>>> Contacts
 					</div>
 			      </div>
 <?php 				} 
