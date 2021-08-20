@@ -173,3 +173,23 @@ p {
 	color: #fff;
 	text-decoration: none;
 }
+
+
+/* FORMULAIRE CONTACT */
+.formulaire_contact > form {
+	background: #ffffff33;
+    padding: 3%;
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.formulaire_contact > form > div > label {
+	color: #fff;
+    font-size: 18px;
+}
+
+.formulaire_contact > form > div > div > label {
+	color: #fff;
+    font-size: 18px;
+}
