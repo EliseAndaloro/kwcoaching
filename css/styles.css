@@ -43,6 +43,16 @@ p {
 	margin: 0 auto;
 }
 
+.white_block{
+	background-color: #fff;
+	color: black;
+	padding: 3% 0 3%;
+}
+
+.white_block > div > h2{
+	color: black;
+}
+
 /* BOUTON */
 .btn-outline-primary {
     color: #ffffff !important;
