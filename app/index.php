@@ -12,7 +12,7 @@ ob_start();
 ?>
 <div class="row head">
 	<div class="col-sm">
-		<h1>Liste des programmes</h1>
+		<h1>Liste des programmes !</h1>
 		<div class="ligne"></div>
 	</div>
 	<div class="col-sm text-right">
