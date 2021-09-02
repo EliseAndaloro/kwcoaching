@@ -12,7 +12,7 @@ ob_start();
 			<div class="container">
 				<div class="formulaire_contact">
 					<form method="post">
-						<h2>Me contacter</h2>
+						<h2>Devis gratuit</h2>
 						<div class="ligne" style="margin-bottom:3%"></div>
                         <div class="form-group row" style="margin-bottom:3%">
     						<label for="type" class="col-sm-3 col-form-label">Vous êtes : </label>
