@@ -63,6 +63,10 @@ p {
     border-color: #ffffff !important;
 }
 
+.btn-outline-primary:hover{
+	background-color: #A51111 !important;
+}
+
 .btn-primary {
     color: #000 !important;
     background-color: #ffffff !important;
@@ -89,6 +93,13 @@ p {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.btn-devis:hover{
+	background-color: #A51111;
+	color: #fff !important;
+	/*border-color: #fff !important;*/
+}
+
 /* MENU */
 .bg-light {
     background-color: #0000008c!important;
