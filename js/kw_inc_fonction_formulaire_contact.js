@@ -1,7 +1,7 @@
-function helloWorld(){
+function formContent(){
     var value = document.getElementById('type').value;
 
-    var particulier_form = "<div class='form-group row' style='margin-bottom:3%'>"
+    /*var particulier_form = "<div class='form-group row' style='margin-bottom:3%'>"
     particulier_form += "<label for='name' class='col-sm-3 col-form-label'>Nom</label>"
     particulier_form += "<div class='col-sm-9'>"
     particulier_form += "<input type='text' class='form-control' id='name' name='name'></div></div>"
@@ -58,13 +58,19 @@ function helloWorld(){
     entreprise_form += "<div class='col-sm-9'><input type='text' class='form-control' id='objectif' name='objectif'></div></div>"
     entreprise_form += "<div class='form-group row' style='margin-bottom:3%'>"
     entreprise_form += "<label for='description' class='col-sm-3 col-form-label'>Email de contact : </label>"
-    entreprise_form += "<div class='col-sm-9'><input type='email' class='form-control' id='mail' name='mail'></div></div>"
+    entreprise_form += "<div class='col-sm-9'><input type='email' class='form-control' id='mail' name='mail'></div></div>"*/
 
     if (value == "particulier"){
-        document.getElementById('form_content').innerHTML = particulier_form;
+        //document.getElementById('form_content').innerHTML = particulier_form;
+        document.getElementById('particulier_form').style.display = "block";
+        document.getElementById('entreprise_form').style.display = "none";
     }else if (value == "entreprise"){
-        document.getElementById('form_content').innerHTML = entreprise_form;
+        //document.getElementById('form_content').innerHTML = entreprise_form;
+        document.getElementById('particulier_form').style.display = "none";
+        document.getElementById('entreprise_form').style.display = "block";
     }else{
-        document.getElementById('form_content').innerHTML = "";
+        //document.getElementById('form_content').innerHTML = "";
+        document.getElementById('particulier_form').style.display = "none";
+        document.getElementById('entreprise_form').style.display = "none";
     }
 };

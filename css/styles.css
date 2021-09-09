@@ -207,11 +207,21 @@ p {
 .formulaire_contact > form > div > label {
 	color: #fff;
     font-size: 18px;
+	text-align: right;
 }
 
-.formulaire_contact > form > div > div > label {
+.formulaire_contact > form > div > div > div > label {
 	color: #fff;
     font-size: 18px;
+	text-align: right;
+}
+
+#particulier_form{
+	display: none;
+}
+
+#entreprise_form{
+	display : none;
 }
 
 /* SPORT EN ENTREPRISE */
