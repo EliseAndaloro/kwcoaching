@@ -58,7 +58,7 @@ ob_start();
 			<div class="white_block">
 				<div class="container">
 					<h2>Pourquoi faire appel à un coach sportif<br> dans votre entreprise ?</h2>
-					<div class="ligne"></div>
+					<div class="ligne text-center"></div>
 					<p>L’activité sportive en entreprise va améliorer la qualité de vie au travail de vos salariés, et ont plusieurs avantages aussi bien pour l’employeur comme pour les salariés.</p>
 					<ul>
 						<li><p>Pour <span class="underline">l’employeur</span>, les avantages sont une hausse de la productivité de ces salariés d’environ <strong>10%</strong>, l’amélioration de la rentabilité et une meilleure image de celui-ci.</p></li>
@@ -81,20 +81,6 @@ ob_start();
 					Le but étant de travailler de manière complète et générale, avec une partie échauffement, des temps de renforcement musculaire isolés, d’autres de haute intensité plus globale, ainsi que des étirements si besoin.</p>
 					<p>Chaque séance est différente, et sera adaptée pour chacun quel que soit son niveau !</p>
 					<p>N’attendez plus, faites le bon choix pour vos salariés et votre entreprise !</p>
-				</div>
-			</div>
-			<div class="white_block">
-				<div class="container">
-					<h2>Comment cela fonctionne ?</h2>
-					<div class="ligne"></div>
-					<ul>
-						<li><p>Cliquer sur "Demander un devis"</p></li>
-						<li><p>Remplir toutes les informations demandées pour une entreprise</p></li>
-						<li><p>Envoie du devis et détails dans un délai de 1 à 3 jours</p></li>
-						<li><p>Validation de la commande et paiement</p></li>
-						<li><p>Point en Visio ou par téléphone si besoin</p></li>
-					</ul>
-
 				</div>
 			</div>
 		</div>
