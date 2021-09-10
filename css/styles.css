@@ -44,13 +44,17 @@ p {
 }
 
 .white_block{
-	background-color: #fff;
-	color: black;
-	padding: 3% 0 3%;
+    background-color: #fff;
+    color: black;
+    padding: 3% 0 3%;
 }
 
-.white_block > div > h2{
-	color: black;
+.white_block > div > h2, .white_block > div > p{
+    color: black;
+}
+
+.white_block > div > h2, .white_block > div > ul > li > p{
+    color: black;
 }
 
 /* BOUTON */
@@ -202,4 +206,25 @@ p {
 .formulaire_contact > form > div > div > label {
 	color: #fff;
     font-size: 18px;
+}
+
+/* PRESENTATION COACH */
+.white_block > div > h2{
+	text-align: center;
+}
+
+.white_block > div > img {
+	position: absolute;
+}
+
+.gray_block {
+	background: #e6e4e4;
+    padding: 5% 4% 4% 14%;
+    width: 60%;
+    display: block;
+    margin: 3% auto;
+}
+
+.gray_block > p {
+	color : black;
 }

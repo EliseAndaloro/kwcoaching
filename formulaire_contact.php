@@ -11,7 +11,7 @@ ob_start();
         <div class="content">
 			<div class="container">
 				<div class="formulaire_contact">
-					<form method="post">
+					<form class="gray_block" method="post">
 						<h2>Me contacter</h2>
 						<div class="ligne" style="margin-bottom:3%"></div>
                         <div class="form-group row" style="margin-bottom:3%">
