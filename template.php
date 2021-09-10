@@ -28,7 +28,7 @@ ini_set("display_errors", 1);
 				              		<a class="nav-link">Présentation du coach</a>
 				            	</li>
 				          		<li class="nav-item">
-				            		<a class="nav-link">Coaching personnalisé</a>
+				            		<a href="./coaching_personnalise.php" class="nav-link">Coaching personnalisé</a>
 				          		</li>
 								<li class="nav-item">
 				            		<a class="nav-link">Sport en entreprise</a>

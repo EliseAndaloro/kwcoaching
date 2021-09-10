@@ -44,15 +44,22 @@ p {
 }
 
 .white_block{
-	background-color: #fff;
-	color: black;
-	padding: 3% 0 3%;
+    background-color: #fff;
+    color: black;
+    padding: 3% 0 3%;
 }
 
-.white_block > div > h2{
-	color: black;
+.white_block > div > h2, .white_block > div > p{
+    color: black;
 }
 
+.white_block > div > h2, .white_block > div > ul > li > p{
+    color: black;
+}
+
+.coaching_personnalise > div > div > h2 {
+	text-align: center;
+}
 /* BOUTON */
 .btn-outline-primary {
     color: #ffffff !important;
@@ -184,6 +191,41 @@ p {
 	text-decoration: none;
 }
 
+/* PAGE COACHING PERSONNALISE */
+.header-coaching-personnalise {
+	background-image: url(../images/coaching-personnalise.jpg);
+	height: 660px;
+    position: relative;
+    background-size: cover;
+    margin-top: -18%;
+    z-index: -1;
+    padding: 24% 0 0;
+}
+
+.coaching_personnalise  > p {
+	margin-top: 2%;
+}
+
+.white_block > div > p {
+	text-align: justify;
+}
+
+.white_block > div > img {
+	display: block;
+	margin : 0 auto;
+}
+
+.white_block > div:first-child {
+	padding-right: 2%;
+}
+
+.white_block > div:nth-child(2n) {
+	padding-left: 2%;
+}
+
+.black_border{
+	border-right: 2px solid #A51111;
+}
 
 /* FORMULAIRE CONTACT */
 .formulaire_contact > form {
