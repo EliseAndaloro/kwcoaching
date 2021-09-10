@@ -88,10 +88,9 @@ p {
 }
 
 .btn-devis{
-	color: black !important;
-	border-color: black !important;
-	margin-left: auto;
-	margin-right: auto;
+	color: white !important;
+    background: black;
+	margin-top: 1%;
 }
 
 .btn-devis:hover{
@@ -232,8 +231,7 @@ p {
 /* SPORT EN ENTREPRISE */
 .header_sport_entreprise {
 	background-image: url(../images/sport_entreprise.jpg);
-    height: 660px;
-    position: relative;
+    height: 705px;
     background-size: cover;
     margin-top: -20%;
     z-index: -1;
@@ -253,4 +251,33 @@ p {
 
 .underline {
 	text-decoration: underline;
+}
+
+/* CARDS */
+.cards {
+	padding: 0 4% 6%;
+}
+
+.content-card {
+	background: #fff;
+    padding: 10% 3% 10% 3%;
+    border-radius: 5px;
+	margin-top: -40%;
+}
+
+.image-card {
+	width: 18%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 6%;
+}
+
+.number {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+}
+
+.content-card > p {
+	color: black !important;
+	margin: 0;
 }

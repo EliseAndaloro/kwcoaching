@@ -12,6 +12,46 @@ ob_start();
 		<div class="container text-center">
 			<h1>Sport en entreprise</h1>
 			<div class="ligne text-center"></div>
+			<a class="btn btn-devis" href="./formulaire_contact.php">Demander un devis</a>
+		</div>
+	</div>
+	<div class="cards">
+		<div class="row">
+			<div class="col-sm">
+				<div class="content-card">
+					<img src="./images/demander-devis.svg" alt="Devis gratuit" class="image-card">
+					<p class="text-center title-card">Cliquer sur<br>"Demander un devis"</p>
+					<div class="number">01</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="content-card">
+					<img src="./images/demander-devis.svg" alt="Devis gratuit" class="image-card">
+					<p class="text-center title-card">Remplir toutes les informations demandées</p>
+					<div class="number">02</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="content-card">
+					<img src="./images/demander-devis.svg" alt="Devis gratuit" class="image-card">
+					<p class="text-center title-card">Devis et détails dans un délai de 1 à 3 jours</p>
+					<div class="number">03</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="content-card">
+					<img src="./images/demander-devis.svg" alt="Devis gratuit" class="image-card">
+					<p class="text-center title-card">Validation de la commande et paiement</p>
+					<div class="number">04</div>
+				</div>
+			</div>
+			<div class="col-sm">
+				<div class="content-card">
+					<img src="./images/demander-devis.svg" alt="Devis gratuit" class="image-card">
+					<p class="text-center title-card">Point en Visio ou par téléphone si besoin</p>
+					<div class="number">05</div>
+				</div>
+			</div>
 		</div>
 	</div>
         <div class="content">
@@ -19,10 +59,10 @@ ob_start();
 				<div class="container">
 					<h2>Pourquoi faire appel à un coach sportif<br> dans votre entreprise ?</h2>
 					<div class="ligne"></div>
-					<p>L’activité sportive en entreprise va améliorer la qualité de vie au travail de vos salariés, et ont plusieurs avantages aussi bien pour l’employeur comme pour les salariés.</p> 
+					<p>L’activité sportive en entreprise va améliorer la qualité de vie au travail de vos salariés, et ont plusieurs avantages aussi bien pour l’employeur comme pour les salariés.</p>
 					<ul>
-						<li><p>Pour <span class="underline">l’employeur</span>, les avantages sont une hausse de la productivité de ces salariés d’environ <strong>10%</strong>, l’amélioration de la rentabilité et une meilleure image de celui-ci.</p></li> 
-						<li><p>Du côté des <span class="underline">salariés</span>, les avantages sont une meilleure santé physique et mentale, une meilleure ambiance intrinsèque (cohésion d’équipe), un gain de temps sur leur planning (familiale notamment), moins de stress ou encore la diminution des <strong>Troubles Musculosquelettique</strong>. Et en plus de tout ça, ils n’ont plus besoin de se rendre dans une enceinte sportive externe !</p></li> 
+						<li><p>Pour <span class="underline">l’employeur</span>, les avantages sont une hausse de la productivité de ces salariés d’environ <strong>10%</strong>, l’amélioration de la rentabilité et une meilleure image de celui-ci.</p></li>
+						<li><p>Du côté des <span class="underline">salariés</span>, les avantages sont une meilleure santé physique et mentale, une meilleure ambiance intrinsèque (cohésion d’équipe), un gain de temps sur leur planning (familiale notamment), moins de stress ou encore la diminution des <strong>Troubles Musculosquelettique</strong>. Et en plus de tout ça, ils n’ont plus besoin de se rendre dans une enceinte sportive externe !</p></li>
 					</ul>
 					<p>Le sport en entreprise est donc un chose très apprécié des collaborateurs.
 					La pratique du sport en entreprise est désormais un vrai sujet dans le monde du travail.
@@ -54,7 +94,7 @@ ob_start();
 						<li><p>Validation de la commande et paiement</p></li>
 						<li><p>Point en Visio ou par téléphone si besoin</p></li>
 					</ul>
-					<a class="btn btn-devis my-2 my-sm-0" href="./formulaire_contact.php">Demander un devis</a>
+
 				</div>
 			</div>
 		</div>
