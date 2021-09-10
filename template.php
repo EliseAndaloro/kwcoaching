@@ -16,8 +16,8 @@ ini_set("display_errors", 1);
 			<div id="navbar">
 			 	<nav class="navbar navbar-expand-lg navbar-light bg-light">
 				    <div class="container-fluid">
-						<a class="navbar-brand" id="logo" href="/">
-					    	<a class="navbar-brand"><img src="./images/kw-coaching-logo.png" alt="" width="150"></a>
+						<a class="navbar-brand" id="logo">
+					    	<a class="navbar-brand"href="./"><img src="./images/kw-coaching-logo.png" alt="" width="150"></a>
 					    </a>
 				      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 				        	<span class="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@ ini_set("display_errors", 1);
 				            		<a href="./coaching_personnalise.php" class="nav-link">Coaching personnalisé</a>
 				          		</li>
 								<li class="nav-item">
-				            		<a class="nav-link">Sport en entreprise</a>
+				            		<a class="nav-link" href="./sport_entreprise.php">Sport en entreprise</a>
 				          		</li>
 				          		<li class="nav-item">
 				            		<a class="nav-link">Programmes</a>

@@ -60,10 +60,27 @@ p {
 .coaching_personnalise > div > div > h2 {
 	text-align: center;
 }
+	background-color: #fff;
+	color: black;
+	padding: 3% 0 3%;
+}
+
+.white_block > div > h2, .white_block > div > p{
+	color: black;
+}
+
+.white_block > div > h2, .white_block > div > ul > li > p{
+	color: black;
+}
+
 /* BOUTON */
 .btn-outline-primary {
     color: #ffffff !important;
     border-color: #ffffff !important;
+}
+
+.btn-outline-primary:hover{
+	background-color: #A51111 !important;
 }
 
 .btn-primary {
@@ -84,6 +101,18 @@ p {
 .lg {
     padding: 1.2rem 1.95rem !important;
     font-size: 17px !important;
+}
+
+.btn-devis{
+	color: white !important;
+    background: black;
+	margin-top: 1%;
+}
+
+.btn-devis:hover{
+	background-color: #A51111;
+	color: #fff !important;
+	/*border-color: #fff !important;*/
 }
 
 /* MENU */
@@ -236,12 +265,74 @@ p {
     margin: 0 auto;
 }
 
-.formulaire_contact > form > div > label {
+.formulaire_contact > form > div > label , .formulaire_contact > form > div > div > div > label {
 	color: #fff;
     font-size: 18px;
+	text-align: right;
 }
 
-.formulaire_contact > form > div > div > label {
+#particulier_form{
+	display: none;
+}
+
+#entreprise_form{
+	display : none;
+}
+
+/* SPORT EN ENTREPRISE */
+.header_sport_entreprise {
+	background-image: url(../images/sport_entreprise.jpg);
+    height: 705px;
+    background-size: cover;
+    margin-top: -20%;
+    z-index: -1;
+    padding: 29% 0 0;
+}
+
+.sport_entreprise {
+    padding: 3%;
+    display: block;
+    margin: 0 auto;
 	color: #fff;
+<<<<<<< HEAD
     font-size: 18px;
+=======
+}
+
+.container > .contenu_seance_sport_entreprise > h2 {
+	padding-top: 3%;
+}
+
+.underline {
+	text-decoration: underline;
+}
+
+/* CARDS */
+.cards {
+	padding: 0 4% 6%;
+}
+
+.content-card {
+	background: #fff;
+    padding: 10% 3% 10% 3%;
+    border-radius: 5px;
+	margin-top: -40%;
+}
+
+.image-card {
+	width: 18%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 6%;
+}
+
+.number {
+	font-family: 'Oswald', sans-serif;
+	font-size: 25px;
+}
+
+.content-card > p {
+	color: black !important;
+	margin: 0;
+>>>>>>> SportEnEntreprise
 }
