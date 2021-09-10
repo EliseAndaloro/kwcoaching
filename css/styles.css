@@ -215,13 +215,7 @@ p {
     margin: 0 auto;
 }
 
-.formulaire_contact > form > div > label {
-	color: #fff;
-    font-size: 18px;
-	text-align: right;
-}
-
-.formulaire_contact > form > div > div > div > label {
+.formulaire_contact > form > div > label , .formulaire_contact > form > div > div > div > label {
 	color: #fff;
     font-size: 18px;
 	text-align: right;
