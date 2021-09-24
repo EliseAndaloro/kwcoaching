@@ -33,7 +33,7 @@ p {
 .ligne {
 	width: 8%;
 	display: block;
-	margin: 1%;
+	margin: 1% 0 1%;
 	background: #A51111;
 	height: 7px;
 }
@@ -294,9 +294,7 @@ p {
     display: block;
     margin: 0 auto;
 	color: #fff;
-<<<<<<< HEAD
     font-size: 18px;
-=======
 }
 
 .container > .contenu_seance_sport_entreprise > h2 {
@@ -329,10 +327,22 @@ p {
 .number {
 	font-family: 'Oswald', sans-serif;
 	font-size: 25px;
+	color: #a51010;
+}
+
+.separe {
+	height: 1px;
+    width: 40%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 5%;
 }
 
 .content-card > p {
 	color: black !important;
 	margin: 0;
->>>>>>> SportEnEntreprise
+}
+
+.contenu_seance_sport_entreprise {
+	padding: 5% 0 4%;
 }
