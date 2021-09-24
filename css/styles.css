@@ -89,6 +89,12 @@ p {
     border-color: #fff !important;
 }
 
+.btn-secondary{
+	color:#fff !important;
+	background-color: #A51111;
+	border-color: #fff !important;
+}
+
 .btn {
     border: 2px solid transparent;
     padding: .575rem 1.95rem;

@@ -57,25 +57,27 @@ ini_set("display_errors", 1);
 						<img src="./images/kw-coaching-logo.png" alt="" width="200">
 					</div>
 					<div class="col footer-link">
-						<!--<h3>Liens Utiles</h3>-->
+						<h3>Liens Utiles</h3>
+						<div class="ligne"></div>
 						<div>
 							<a class="nav-link" href="./presentation_coach.php">Présentation du coach</a>
 							<a href="./coaching_personnalise.php" class="nav-link">Coaching personnalisé</a>
 							<a class="nav-link" href="./sport_entreprise.php">Sport en entreprise</a>
-						</div>
-					</div>
-					<div class="col footer-link">
-						<div>
 							<a class="nav-link">Programmes</a>
-							<a class="nav-link" href="./formulaire_contact.php">Devis gratuit</a>
 						</div>
 					</div>
 					<div class="col footer-link">
 						<h3>Me Contacter</h3>
+						<div class="ligne"></div>
 						<p class="nav-link">00 00 00 00 00</p>
 						<p class="nav-link">kwcoaching@gmail.com</p>
 						<img class="fb" src="./images/facebook.svg" alt="" width="20">
 						<img src="./images/instagram.svg" alt="" width="20">
+					</div>
+					<div class="col footer-link align-self-center">
+						<div>
+							<a class="btn btn-secondary" href="./formulaire_contact.php">Devis gratuit</a>
+						</div>
 					</div>
 				</div>
 			</div>
