@@ -12,6 +12,7 @@ ob_start();
 	<div class="container text-center">
 		<h1>Coaching<br>personnalisé</h1>
 		<div class="ligne text-center"></div>
+		<a class="btn btn-devis" href="./formulaire_contact.php">Demander un devis</a>
 	</div>
 </div>
 

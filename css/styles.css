@@ -10,6 +10,10 @@ body{
 	padding: 0;
 }
 
+hr {
+	color: #fff;
+}
+
 h1 {
 	font-family: 'Oswald', sans-serif;
     color: #fff;
@@ -223,12 +227,11 @@ p {
 /* PAGE COACHING PERSONNALISE */
 .header-coaching-personnalise {
 	background-image: url(../images/coaching-personnalise.jpg);
-	height: 660px;
-    position: relative;
+	height: 705px;
     background-size: cover;
-    margin-top: -18%;
+    margin-top: -20%;
     z-index: -1;
-    padding: 24% 0 0;
+    padding: 25% 0 0;
 }
 
 .coaching_personnalise  > p {
@@ -345,4 +348,17 @@ p {
 
 .contenu_seance_sport_entreprise {
 	padding: 5% 0 4%;
+}
+
+.slogan > h2 {
+	font-size: 22px;
+}
+
+.slogan > img {
+	width: 3%;
+	margin-bottom: 1%
+}
+
+.slogan {
+	margin-top: 5%;
 }

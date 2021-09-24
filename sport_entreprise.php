@@ -80,25 +80,34 @@ ob_start();
 							</p>
 						</div>
 					</div>
-
+					<div class="text-center">
+						<a class="btn btn-devis" href="./formulaire_contact.php">Demander un devis</a>
+					</div>
 
 				</div>
 			</div>
 			<div class="container">
 				<div class="contenu_seance_sport_entreprise">
 					<div class="row">
-						<div class="col-sm">
+						<div class="col-sm align-self-center">
 							<h2>Quel est le contenu d’une séance ?</h2>
 							<div class="ligne" style="width: 15%;"></div>
 							<p>Les séances sont d’une durée de 30 à 45 minutes selon votre demande.
 							Celles-ci seront adaptées en fonction du travail effectué par les salariés, de leurs niveaux et des objectifs de l’entreprise.
 							Le but étant de travailler de manière complète et générale, avec une partie échauffement, des temps de renforcement musculaire isolés, d’autres de haute intensité plus globale, ainsi que des étirements si besoin.</p>
 							<p>Chaque séance est différente, et sera adaptée pour chacun quel que soit son niveau !</p>
-							<p>N’attendez plus, faites le bon choix pour vos salariés et votre entreprise !</p>
+							<!-- <p></p> -->
 						</div>
 						<div class="col-sm">
 							<img src="./images/contenu-seance.jpg" width="100%"alt="">
 						</div>
+					</div>
+					<div class="slogan text-center">
+						<hr>
+						<img src="./images/checkmark.svg" alt="">
+						<h2>N’attendez plus<br>faites le bon choix pour vos salariés et votre entreprise !</h2>
+						<div class="ligne text-center"></div>`
+						<hr>
 					</div>
 
 				</div>
