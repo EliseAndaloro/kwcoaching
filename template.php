@@ -50,6 +50,34 @@ ini_set("display_errors", 1);
 				<?= $content; ?>
 			</div>
 		</div>
+		<div class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<img src="./images/kw-coaching-logo.png" alt="" width="200">
+					</div>
+					<div class="col footer-link">
+						<!--<h3>Liens Utiles</h3>-->
+						<div>
+							<a class="nav-link" href="./presentation_coach.php">Présentation du coach</a>
+							<a href="./coaching_personnalise.php" class="nav-link">Coaching personnalisé</a>
+							<a class="nav-link" href="./sport_entreprise.php">Sport en entreprise</a>
+						</div>
+					</div>
+					<div class="col footer-link">
+						<div>
+							<a class="nav-link">Programmes</a>
+							<a class="nav-link" href="./formulaire_contact.php">Devis gratuit</a>
+						</div>
+					</div>
+					<div class="col footer-link">
+						<h3>Me Contacter</h3>
+						<p class="nav-link">00 00 00 00 00</p>
+						<p class="nav-link">kwcoaching@gmail.com</p>
+					</div>
+				</div>
+			</div>
+		</div>
 		<script src="./js/jquery-3.6.0.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 		<script src="./bootstrap/5.0.1/js/bootstrap.min.js"></script>
