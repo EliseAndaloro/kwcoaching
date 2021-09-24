@@ -358,9 +358,9 @@ p {
 
 /** FOOTER **/
 .footer{
-	background-color: #333;
-	padding: 2%;
-	border-top: 1px solid #ffffff9e;
+	background-color: #000;
+    padding: 2%;
+    border-top: 1px solid #ffffff54;
 }
 
 .footer > div > div > div > h3 {

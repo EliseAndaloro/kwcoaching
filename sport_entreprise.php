@@ -103,11 +103,9 @@ ob_start();
 						</div>
 					</div>
 					<div class="slogan text-center">
-						<hr>
 						<img src="./images/checkmark.svg" alt="">
 						<h2>N’attendez plus<br>faites le bon choix pour vos salariés et votre entreprise !</h2>
 						<div class="ligne text-center"></div>`
-						<hr>
 					</div>
 
 				</div>
