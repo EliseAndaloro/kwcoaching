@@ -209,22 +209,23 @@ p {
 }
 
 /* PRESENTATION COACH */
-.white_block > div > h2{
-	text-align: center;
-}
-
-.white_block > div > img {
-	position: absolute;
-}
-
-.gray_block {
-	background: #e6e4e4;
-    padding: 5% 4% 4% 14%;
+.white_block_presentation {
+	background: #fff;
+    padding: 5% 4% 4% 8%;
     width: 60%;
-    display: block;
     margin: 3% auto;
 }
 
-.gray_block > p {
+.white_block_presentation > p , .white_block_presentation > h2 {
 	color : black;
+}
+
+.gray_block {
+	background:#e9ecef;
+	padding: 0 0 0 0;
+	margin: 3% auto;
+}
+
+.gray_block > p {
+	color: black;
 }
