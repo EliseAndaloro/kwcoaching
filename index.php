@@ -14,7 +14,7 @@ ob_start();
 
 <div class="header">
 	<div class="container">
-		<h1>Devenez plus musclé,<br>plus sec et plus fort</h1>
+		<h1>Demain est un jour de moins<br> pour changer</h1>
 		<a href="#" class="btn btn-outline-primary lg">Choisir mon programme</a>
 	</div>
 </div>

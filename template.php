@@ -74,6 +74,8 @@ ini_set("display_errors", 1);
 						<h3>Me Contacter</h3>
 						<p class="nav-link">00 00 00 00 00</p>
 						<p class="nav-link">kwcoaching@gmail.com</p>
+						<img class="fb" src="./images/facebook.svg" alt="" width="20">
+						<img src="./images/instagram.svg" alt="" width="20">
 					</div>
 				</div>
 			</div>
