@@ -60,10 +60,10 @@ p {
 .coaching_personnalise > div > div > h2 {
 	text-align: center;
 }
-	background-color: #fff;
+	/*background-color: #fff;
 	color: black;
 	padding: 3% 0 3%;
-}
+}*/
 
 .white_block > div > h2, .white_block > div > p{
 	color: black;
@@ -87,6 +87,12 @@ p {
     color: #000 !important;
     background-color: #ffffff !important;
     border-color: #fff !important;
+}
+
+.btn-secondary{
+	color:#fff !important;
+	background-color: #A51111;
+	border-color: #fff !important;
 }
 
 .btn {
@@ -187,6 +193,10 @@ p {
 
 .block_name{
 	height : 50px;
+}
+
+.avis-clients{
+	padding-bottom: 3%;
 }
 
 /* ACCES ADMIN*/
@@ -294,9 +304,7 @@ p {
     display: block;
     margin: 0 auto;
 	color: #fff;
-<<<<<<< HEAD
     font-size: 18px;
-=======
 }
 
 .container > .contenu_seance_sport_entreprise > h2 {
@@ -334,5 +342,42 @@ p {
 .content-card > p {
 	color: black !important;
 	margin: 0;
->>>>>>> SportEnEntreprise
+}
+
+/** FOOTER **/
+.footer{
+	background-color: #333;
+	padding: 2%;
+	border-top: 1px solid #ffffff9e;
+}
+
+.footer > div > div > div > h3 {
+	font-family: 'Oswald', sans-serif;
+    color: #fff !important;
+	font-size: 20px;
+}
+
+.footer > div > div > div > .nav-link{
+	font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 13px;
+	padding: 0.2rem 0;
+	margin: 0 !important;
+}
+
+.footer > div > div > div > div > .nav-link{
+	font-family: 'Poppins', sans-serif;
+    color: #fff;
+    font-size: 13px;
+	padding: 0.2rem 0;
+	margin: 0 !important;
+	width : 10rem;
+}
+
+.footer-link{
+	padding-top: 2rem;
+}
+
+.fb{
+	margin-right: 5%;
 }
