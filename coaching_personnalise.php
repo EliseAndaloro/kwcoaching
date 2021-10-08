@@ -15,6 +15,102 @@ ob_start();
 		<a class="btn btn-devis" href="./formulaire_contact.php">Demander un devis</a>
 	</div>
 </div>
+<div class="cards">
+	<div class="row">
+		<div class="col-sm">
+			<div class="content-card">
+				<img src="./images/push.svg" alt="Devis entièrement gratuit" class="image-card">
+				<hr class="separe">
+				<p class="text-center title-card">Cliquer sur<br>"Demander un devis"</p>
+				<div class="number">01</div>
+			</div>
+		</div>
+		<div class="col-sm">
+			<div class="content-card">
+				<img src="./images/form.svg" alt="Remplir toutes les informations demandées" class="image-card">
+				<hr class="separe">
+				<p class="text-center title-card">Remplir toutes les informations demandées</p>
+				<div class="number">02</div>
+			</div>
+		</div>
+		<div class="col-sm">
+			<div class="content-card">
+				<img src="./images/demander-devis.svg" alt="Devis et détails de votre demande directement dans votre boite mail" class="image-card">
+				<hr class="separe">
+				<p class="text-center title-card">Devis et détails dans un délai de 1 à 3 jours</p>
+				<div class="number">03</div>
+			</div>
+		</div>
+		<div class="col-sm">
+			<div class="content-card">
+				<img src="./images/credit.svg" alt="Aucun paiement en ligne, vous réglez directement le coach" class="image-card">
+				<hr class="separe">
+				<p class="text-center title-card">Validation de la commande et paiement</p>
+				<div class="number">04</div>
+			</div>
+		</div>
+		<div class="col-sm">
+			<div class="content-card">
+				<img src="./images/phone-call.svg" alt="Point en Visio ou par téléphone si besoin" class="image-card">
+				<hr class="separe">
+				<p class="text-center title-card">Point en Visio ou par téléphone si besoin</p>
+				<div class="number">05</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="cards-contenu">
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="cards-co">
+					<div class="head-cards">
+						<div class="title">
+							Coaching personnalisé<br>
+							<span>séance en présentiel et/ou visio</span>
+						</div>
+					</div>
+					<div class="body-cards">
+						<div class="content-body">
+							<img src="./images/check.png" alt="Coaching personnalisé - Programme d’entrainement"> Programme d’entrainement<br>
+							<img src="./images/check.png" alt="Coaching personnalisé - Programme d’entrainement"> Plan nutritionnel détaillé<br>
+							<img src="./images/check.png" alt="Coaching personnalisé - Programme d’entrainement"> Conseils et astuces<br>
+							<img src="./images/check.png" alt="Coaching personnalisé - Programme d’entrainement"> Séance(s) en présentiel et/ou Visio<br>
+							<img src="./images/check.png" alt="Coaching personnalisé - Programme d’entrainement"> Suivi et bilan mensuel<br>
+							<img src="./images/check.png" alt="Coaching personnalisé - Programme d’entrainement"> Disponible sur Instagram ou Messenger 7J/7<br>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="cards-co">
+					<div class="head-cards">
+						<div class="title">
+							Coaching personnalisé<br>
+							<span>Comment ça marche</span>
+						</div>
+					</div>
+					<div class="body-cards" style="padding: 5% 0 5% 0%;">
+						<div class="content-body">
+							<span class="number" style="font-size: 18px;">1.</span> Cliquer sur « demander un devis »<br>
+							<span class="number" style="font-size: 18px;">2.</span> Remplir toutes les infos demandées pour un particulier<br>
+							<span class="number" style="font-size: 18px;">3.</span> Envoi du devis dans un délai de 1 à 3 jours<br>
+							<span class="number" style="font-size: 18px;">4.</span> Validation de la commande et paiement<br>
+							<span class="number" style="font-size: 18px;">5.</span> Premier contact par mail ou téléphone<br>
+							<span class="number" style="font-size: 18px;">6.</span> Elaboration de la programmation dans un délai 2 à 4 jours<br>
+							<span class="number" style="font-size: 18px;">6.</span> Point en Visio ensemble du programme si besoin<br>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="text-center">
+				<a class="btn btn-devis" href="./formulaire_contact.php">Demander un devis</a>
+			</div>
+		</div>
+	</div>
+
+</div>
 
 <div class="coaching_personnalise">
 	<div class="white_block">
@@ -35,7 +131,7 @@ ob_start();
 					<img src="./images/haltere.svg" width="12%"/>
 				</div>
 			</div>
-			<p>Contenu pour Coaching personnalisé avec séance en présentiel et/ou Visio :
+			<!-- <p>Contenu pour Coaching personnalisé avec séance en présentiel et/ou Visio :
 			    Programme d’entrainement
 			    Plan nutritionnel détaillé
 			    Conseils et astuces sur l’entrainement, la nutrition et la récupération
@@ -56,7 +152,7 @@ ob_start();
 			4.    Validation de la commande et paiement
 			5.    Premier contact par mail ou téléphone
 			6.    Elaboration de la programmation dans un délai 2 à 4 jours
-			7.    Point en Visio ensemble du programme si besoin</p>
+			7.    Point en Visio ensemble du programme si besoin</p> -->
 		</div>
 	</div>
 </div>

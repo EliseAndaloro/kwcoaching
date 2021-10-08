@@ -269,6 +269,61 @@ p {
 	border-right: 2px solid #A51111;
 }
 
+.cards-contenu {
+	background: #e9ecef;
+    padding: 5% 0 5%;
+}
+
+.cards-co {
+	display: block;
+    margin: 0 auto;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 26px 0px #DEDEDE;
+	box-shadow: 0px 0px 26px 0px #DEDEDE;
+}
+
+.head-cards {
+	background: #fff;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10%;
+}
+
+.body-cards {
+	background: #f9f9f9;
+    padding: 5% 0 5% 17%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	text-align: center;
+	height: 345px;
+}
+
+.title {
+	font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    color: #a51010;
+    text-align: center;
+	line-height: 24px;
+}
+
+.title > span {
+	font-family: 'Poppins', sans-serif;
+    color: #00000094;
+    font-size: 17px;
+}
+
+.content-body {
+	display: inline-block;
+	text-align: left;
+	line-height: 39px;
+	color: #00000094;
+}
+
+.content-body > img {
+	width: 6%;
+    padding: 0 1% 0 0;
+}
+
 /* FORMULAIRE CONTACT */
 .formulaire_contact > form {
 	background: #ffffff33;
