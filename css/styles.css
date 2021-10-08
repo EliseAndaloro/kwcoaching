@@ -212,20 +212,21 @@ p {
 .white_block_presentation {
 	background: #fff;
     padding: 5% 4% 4% 8%;
-    width: 60%;
     margin: 3% auto;
 }
 
-.white_block_presentation > p , .white_block_presentation > h2 {
+.text_black{
+	padding: 5% 4% 4% 5%;
+}
+
+.text_black > p , .text_black >  h2 {
 	color : black;
 }
 
 .gray_block {
 	background:#e9ecef;
-	padding: 0 0 0 0;
-	margin: 3% auto;
 }
 
-.gray_block > p {
+.gray_block > p, .gray_block > h2 {
 	color: black;
 }

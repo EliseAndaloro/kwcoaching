@@ -16,24 +16,26 @@ ob_start();
 	</div>
     <div class="content">
 		<div class="container">
-			<div class="row">
-				<div class="col-3 gray_block">
-					<img src="./images/presentation_kevin.png" width="130%"/>
+			<div class="row white_block_presentation">
+				<div class="col-4 gray_block">
+					<img src="./images/presentation_kevin.png" width="90%"/>
+					<h2>Kevin COLOMBIER</h2>
+					<div class="ligne"></div>
 					<p>lorem ipsum</p>
 				</div>
-				<div class="col white_block_presentation">
+				<div class="col text_black">
 					<h2>Qui suis-je ?</h2>
 					<div class="ligne"></div>
             		<p>Je m’appelle Kévin, j’ai 25 ans et je suis originaire de Saint-Etienne.</p> 
             		<p>Sportif très jeune, j’ai décidé d’en faire mon métier en partageant mon expérience et mon savoir, acquis lors de ma pratique et de ma formation.
-            		    Pour ma propre pratique sportive, j’ai commencé par le football dès l’âge de 3 ans, puis complexé par mon physique, à 17 ans j’ai décidé d’opter pour la musculation en salle.
-            		    En tant que vrai passionné de sport, je diversifie ma pratique au maximum (musculation, CrossFit, football, boxe, course à pied, natation…) et c’est également ce que je recommande à mes clients, toutes les activités physiques sont bonnes et compatibles, c’est le meilleur moyen d’être en bonne santé et de s’épanouir !
+            		    Pour ma propre pratique sportive, j’ai commencé par le <strong>football</strong> dès l’âge de 3 ans, puis complexé par mon physique, à 17 ans j’ai décidé d’opter pour la <strong>musculation</strong> en salle.
+            		    En tant que vrai <strong>passionné</strong> de sport, je diversifie ma pratique au maximum (musculation, CrossFit, football, boxe, course à pied, natation…) et c’est également ce que je recommande à mes clients, toutes les activités physiques sont bonnes et compatibles, c’est le meilleur moyen d’être en bonne santé et de s’épanouir !
             		</p>
-            		<p>Diplômé depuis 2020, je réalise des coachings personnalisés pour tous types de personnes et objectifs, en présentiel ou à distance, mais également de la préparation physique (football, boxe…) ou encore du coaching en entreprise, que ce soit en France ou pour des étrangers !
-            		    J’ai également été coach de CrossFit lors de ma formation, ce qui m’a permis de connaitre de nouvelles méthodes d’entrainement et d’intensifications, essentielles pour mon enseignement.
+            		<p><strong>Diplômé depuis 2020</strong>, je réalise des <strong>coachings personnalisés</strong> pour tous types de personnes et objectifs, en présentiel ou à distance, mais également de la <strong>préparation physique</strong> (football, boxe…) ou encore du <strong>coaching en entreprise</strong>, que ce soit en France ou pour des étrangers !
+            		    J’ai également été <strong>coach de CrossFit</strong> lors de ma formation, ce qui m’a permis de connaitre de nouvelles méthodes d’entrainement et d’intensifications, essentielles pour mon enseignement.
             		</p>
-            		<p>Je continue chaque jour de m’instruire par le biais de sources fiable, ce qui me permet de vous proposer également des conseils en récupération/bien-être ainsi que des plans nutritionnels, primordial pour atteindre vos objectifs et être en meilleure santé physique et mentale.
-            		    Quel que soit votre profil et vos ambitions, je mettrais au point une programmation adaptée à vos réels besoins, qui vous permettra d’atteindre vos objectifs de manière structurée.
+            		<p>Je continue chaque jour de m’instruire par le biais de sources fiable, ce qui me permet de vous proposer également des <strong>conseils en récupération/bien-être</strong> ainsi que des <strong>plans nutritionnels</strong>, primordial pour atteindre vos objectifs et être en meilleure santé physique et mentale.
+            		    Quel que soit votre profil et vos ambitions, je mettrais au point une <strong>programmation adaptée</strong> à vos réels besoins, qui vous permettra d’<strong>atteindre vos objectifs</strong> de manière structurée.
             		</p>
 				</div>
 			</div>
