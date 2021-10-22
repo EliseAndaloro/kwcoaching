@@ -51,6 +51,9 @@ p {
     background-color: #fff;
     color: black;
     padding: 3% 0 3%;
+    background-color: #fff;
+    color: black;
+    padding: 3% 0 3%;
 }
 
 .white_block > div > h2, .white_block > div > p{
@@ -73,8 +76,14 @@ p {
 	color: black;
 }
 
+.white_block > div > h2, .white_block > div > p{
+    color: black;
 .white_block > div > h2, .white_block > div > ul > li > p{
 	color: black;
+}
+
+.white_block > div > h2, .white_block > div > ul > li > p{
+    color: black;
 }
 
 /* BOUTON */
@@ -363,6 +372,29 @@ p {
     margin: 0 auto;
 	color: #fff;
     font-size: 18px;
+}
+
+/* PRESENTATION COACH */
+.white_block_presentation {
+	background: #fff;
+    padding: 5% 4% 4% 8%;
+    margin: 3% auto;
+}
+
+.text_black{
+	padding: 5% 4% 4% 5%;
+}
+
+.text_black > p , .text_black >  h2 {
+	color : black;
+}
+
+.gray_block {
+	background:#e9ecef;
+}
+
+.gray_block > p, .gray_block > h2 {
+	color: black;
 }
 
 .container > .contenu_seance_sport_entreprise > h2 {
