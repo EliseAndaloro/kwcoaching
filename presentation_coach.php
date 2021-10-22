@@ -35,7 +35,7 @@ ob_start();
             		    J’ai également été <strong>coach de CrossFit</strong> lors de ma formation, ce qui m’a permis de connaitre de nouvelles méthodes d’entrainement et d’intensifications, essentielles pour mon enseignement.
             		</p>
             		<p>Je continue chaque jour de m’instruire par le biais de sources fiable, ce qui me permet de vous proposer également des <strong>conseils en récupération/bien-être</strong> ainsi que des <strong>plans nutritionnels</strong>, primordial pour atteindre vos objectifs et être en meilleure santé physique et mentale.
-            		    Quel que soit votre profil et vos ambitions, je mettrais au point une <strong>programmation adaptée</strong> à vos réels besoins, qui vous permettra d’<strong>atteindre vos objectifs</strong> de manière structurée.
+            		    TESSSSSSSSTQuel que soit votre profil et vos ambitions, je mettrais au point une <strong>programmation adaptée</strong> à vos réels besoins, qui vous permettra d’<strong>atteindre vos objectifs</strong> de manière structurée.
             		</p>
 				</div>
 			</div>
