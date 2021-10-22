@@ -25,7 +25,7 @@ ini_set("display_errors", 1);
 				      	<div class="collapse navbar-collapse" id="navbarNavDropdown">
 				        	<ul class="nav navbar-nav mx-auto order-0">
 								<li class="nav-item">
-				              		<a class="nav-link" href="./presentation_coach.php">Présentation du coach</a>
+				              		<a class="nav-link">Présentation du coach</a>
 				            	</li>
 				          		<li class="nav-item">
 				            		<a href="./coaching_personnalise.php" class="nav-link">Coaching personnalisé</a>
